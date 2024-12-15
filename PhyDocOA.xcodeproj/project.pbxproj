@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893C075A2D0A9BF100622351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07592D0A9BF100622351 /* AppDelegate.swift */; };
+		893C07642D0A9BF100622351 /* PhyDocOA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 893C07622D0A9BF100622351 /* PhyDocOA.xcdatamodeld */; };
+		893C07662D0A9BF300622351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893C07652D0A9BF300622351 /* Assets.xcassets */; };
+		893C07692D0A9BF300622351 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 893C07682D0A9BF300622351 /* Base */; };
+		893C07712D0AA67500622351 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07702D0AA67500622351 /* MainRouter.swift */; };
+		893C07742D0AB71D00622351 /* SelectAppointmentTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07732D0AB71D00622351 /* SelectAppointmentTypeView.swift */; };
+		893C07762D0AB74000622351 /* SelectPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07752D0AB74000622351 /* SelectPersonView.swift */; };
+		893C07782D0AB9F300622351 /* SelectTimeDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07772D0AB9F300622351 /* SelectTimeDateView.swift */; };
+		893C077A2D0AB9FE00622351 /* ConfirmAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07792D0AB9FE00622351 /* ConfirmAppointmentView.swift */; };
+		893C077C2D0ABA0600622351 /* AppointmentDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C077B2D0ABA0600622351 /* AppointmentDoneView.swift */; };
+		893C077F2D0ABD2800622351 /* View+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C077E2D0ABD2800622351 /* View+UIViewController.swift */; };
+		893C07812D0ABE7300622351 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07802D0ABE7300622351 /* AppointmentViewModel.swift */; };
+		893C07842D0ABFE600622351 /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07832D0ABFE600622351 /* AppointmentView.swift */; };
+		893C07872D0AF2FE00622351 /* NavigationButtonsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07862D0AF2FE00622351 /* NavigationButtonsStackView.swift */; };
+		893C07892D0AF31000622351 /* StepStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07882D0AF31000622351 /* StepStatusView.swift */; };
+		893C07902D0AFA0300622351 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 893C078C2D0AFA0300622351 /* README.txt */; };
+		893C07912D0AFA0300622351 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 893C078D2D0AFA0300622351 /* OFL.txt */; };
+		893C07922D0AFA0300622351 /* static in Resources */ = {isa = PBXBuildFile; fileRef = 893C078E2D0AFA0300622351 /* static */; };
+		893C07932D0AFA0300622351 /* Onest-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 893C078F2D0AFA0300622351 /* Onest-VariableFont_wght.ttf */; };
+		893C07952D0AFB3000622351 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07942D0AFB3000622351 /* Font+Extension.swift */; };
+		893C079A2D0AFE9F00622351 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07992D0AFE9F00622351 /* UIColor+Extension.swift */; };
+		893C079C2D0AFFB000622351 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C079B2D0AFFB000622351 /* Color+Extension.swift */; };
+		893C079E2D0BF24900622351 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C079D2D0BF24900622351 /* TitleView.swift */; };
+		893C07A12D0D85B300622351 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07A02D0D85B200622351 /* NetworkingService.swift */; };
+		893C07A52D0DAC5100622351 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07A42D0DAC5100622351 /* RootView.swift */; };
+		893C07A72D0EBEF700622351 /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07A62D0EBEF700622351 /* WarningView.swift */; };
+		893C07AB2D0F1E8100622351 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C07AA2D0F1E8100622351 /* String+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		893C07562D0A9BF100622351 /* PhyDocOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhyDocOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893C07592D0A9BF100622351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		893C07632D0A9BF100622351 /* PhyDocOA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhyDocOA.xcdatamodel; sourceTree = "<group>"; };
+		893C07652D0A9BF300622351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893C07682D0A9BF300622351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893C076A2D0A9BF300622351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893C07702D0AA67500622351 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		893C07732D0AB71D00622351 /* SelectAppointmentTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAppointmentTypeView.swift; sourceTree = "<group>"; };
+		893C07752D0AB74000622351 /* SelectPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonView.swift; sourceTree = "<group>"; };
+		893C07772D0AB9F300622351 /* SelectTimeDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeDateView.swift; sourceTree = "<group>"; };
+		893C07792D0AB9FE00622351 /* ConfirmAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAppointmentView.swift; sourceTree = "<group>"; };
+		893C077B2D0ABA0600622351 /* AppointmentDoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDoneView.swift; sourceTree = "<group>"; };
+		893C077E2D0ABD2800622351 /* View+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+UIViewController.swift"; sourceTree = "<group>"; };
+		893C07802D0ABE7300622351 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		893C07832D0ABFE600622351 /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		893C07862D0AF2FE00622351 /* NavigationButtonsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonsStackView.swift; sourceTree = "<group>"; };
+		893C07882D0AF31000622351 /* StepStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepStatusView.swift; sourceTree = "<group>"; };
+		893C078C2D0AFA0300622351 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		893C078D2D0AFA0300622351 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		893C078E2D0AFA0300622351 /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; path = static; sourceTree = "<group>"; };
+		893C078F2D0AFA0300622351 /* Onest-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		893C07942D0AFB3000622351 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		893C07992D0AFE9F00622351 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		893C079B2D0AFFB000622351 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		893C079D2D0BF24900622351 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		893C07A02D0D85B200622351 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		893C07A42D0DAC5100622351 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		893C07A62D0EBEF700622351 /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		893C07AA2D0F1E8100622351 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893C07532D0A9BF100622351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893C074D2D0A9BF100622351 = {
+			isa = PBXGroup;
+			children = (
+				893C07582D0A9BF100622351 /* PhyDocOA */,
+				893C07572D0A9BF100622351 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893C07572D0A9BF100622351 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893C07562D0A9BF100622351 /* PhyDocOA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893C07582D0A9BF100622351 /* PhyDocOA */ = {
+			isa = PBXGroup;
+			children = (
+				893C07592D0A9BF100622351 /* AppDelegate.swift */,
+				893C07702D0AA67500622351 /* MainRouter.swift */,
+				893C07A42D0DAC5100622351 /* RootView.swift */,
+				893C07722D0AB59400622351 /* AppointmentModule */,
+				893C07962D0AFE5700622351 /* CommonUI */,
+				893C079F2D0D85AA00622351 /* Networking */,
+				893C078A2D0AF9EF00622351 /* SupporingFiles */,
+				893C07652D0A9BF300622351 /* Assets.xcassets */,
+				893C07672D0A9BF300622351 /* LaunchScreen.storyboard */,
+				893C076A2D0A9BF300622351 /* Info.plist */,
+				893C07622D0A9BF100622351 /* PhyDocOA.xcdatamodeld */,
+			);
+			path = PhyDocOA;
+			sourceTree = "<group>";
+		};
+		893C07722D0AB59400622351 /* AppointmentModule */ = {
+			isa = PBXGroup;
+			children = (
+				893C07832D0ABFE600622351 /* AppointmentView.swift */,
+				893C07802D0ABE7300622351 /* AppointmentViewModel.swift */,
+				893C07852D0AF2DF00622351 /* OtherScreens */,
+			);
+			path = AppointmentModule;
+			sourceTree = "<group>";
+		};
+		893C077D2D0ABD0900622351 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				893C077E2D0ABD2800622351 /* View+UIViewController.swift */,
+				893C07942D0AFB3000622351 /* Font+Extension.swift */,
+				893C07992D0AFE9F00622351 /* UIColor+Extension.swift */,
+				893C079B2D0AFFB000622351 /* Color+Extension.swift */,
+				893C07AA2D0F1E8100622351 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		893C07852D0AF2DF00622351 /* OtherScreens */ = {
+			isa = PBXGroup;
+			children = (
+				893C07732D0AB71D00622351 /* SelectAppointmentTypeView.swift */,
+				893C07752D0AB74000622351 /* SelectPersonView.swift */,
+				893C07772D0AB9F300622351 /* SelectTimeDateView.swift */,
+				893C07792D0AB9FE00622351 /* ConfirmAppointmentView.swift */,
+				893C077B2D0ABA0600622351 /* AppointmentDoneView.swift */,
+			);
+			path = OtherScreens;
+			sourceTree = "<group>";
+		};
+		893C078A2D0AF9EF00622351 /* SupporingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				893C077D2D0ABD0900622351 /* Extensions */,
+				893C078B2D0AF9FA00622351 /* Fonts */,
+			);
+			path = SupporingFiles;
+			sourceTree = "<group>";
+		};
+		893C078B2D0AF9FA00622351 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				893C078D2D0AFA0300622351 /* OFL.txt */,
+				893C078F2D0AFA0300622351 /* Onest-VariableFont_wght.ttf */,
+				893C078C2D0AFA0300622351 /* README.txt */,
+				893C078E2D0AFA0300622351 /* static */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		893C07962D0AFE5700622351 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				893C07882D0AF31000622351 /* StepStatusView.swift */,
+				893C079D2D0BF24900622351 /* TitleView.swift */,
+				893C07A62D0EBEF700622351 /* WarningView.swift */,
+				893C07862D0AF2FE00622351 /* NavigationButtonsStackView.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		893C079F2D0D85AA00622351 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				893C07A02D0D85B200622351 /* NetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893C07552D0A9BF100622351 /* PhyDocOA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893C076D2D0A9BF300622351 /* Build configuration list for PBXNativeTarget "PhyDocOA" */;
+			buildPhases = (
+				893C07522D0A9BF100622351 /* Sources */,
+				893C07532D0A9BF100622351 /* Frameworks */,
+				893C07542D0A9BF100622351 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhyDocOA;
+			productName = PhyDocOA;
+			productReference = 893C07562D0A9BF100622351 /* PhyDocOA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893C074E2D0A9BF100622351 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					893C07552D0A9BF100622351 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 893C07512D0A9BF100622351 /* Build configuration list for PBXProject "PhyDocOA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893C074D2D0A9BF100622351;
+			productRefGroup = 893C07572D0A9BF100622351 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893C07552D0A9BF100622351 /* PhyDocOA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893C07542D0A9BF100622351 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893C07922D0AFA0300622351 /* static in Resources */,
+				893C07932D0AFA0300622351 /* Onest-VariableFont_wght.ttf in Resources */,
+				893C07662D0A9BF300622351 /* Assets.xcassets in Resources */,
+				893C07902D0AFA0300622351 /* README.txt in Resources */,
+				893C07912D0AFA0300622351 /* OFL.txt in Resources */,
+				893C07692D0A9BF300622351 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893C07522D0A9BF100622351 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893C07742D0AB71D00622351 /* SelectAppointmentTypeView.swift in Sources */,
+				893C07782D0AB9F300622351 /* SelectTimeDateView.swift in Sources */,
+				893C07872D0AF2FE00622351 /* NavigationButtonsStackView.swift in Sources */,
+				893C07A52D0DAC5100622351 /* RootView.swift in Sources */,
+				893C07A12D0D85B300622351 /* NetworkingService.swift in Sources */,
+				893C07712D0AA67500622351 /* MainRouter.swift in Sources */,
+				893C077A2D0AB9FE00622351 /* ConfirmAppointmentView.swift in Sources */,
+				893C07842D0ABFE600622351 /* AppointmentView.swift in Sources */,
+				893C07892D0AF31000622351 /* StepStatusView.swift in Sources */,
+				893C079A2D0AFE9F00622351 /* UIColor+Extension.swift in Sources */,
+				893C07A72D0EBEF700622351 /* WarningView.swift in Sources */,
+				893C07AB2D0F1E8100622351 /* String+Extension.swift in Sources */,
+				893C077C2D0ABA0600622351 /* AppointmentDoneView.swift in Sources */,
+				893C07762D0AB74000622351 /* SelectPersonView.swift in Sources */,
+				893C07812D0ABE7300622351 /* AppointmentViewModel.swift in Sources */,
+				893C077F2D0ABD2800622351 /* View+UIViewController.swift in Sources */,
+				893C079E2D0BF24900622351 /* TitleView.swift in Sources */,
+				893C07642D0A9BF100622351 /* PhyDocOA.xcdatamodeld in Sources */,
+				893C079C2D0AFFB000622351 /* Color+Extension.swift in Sources */,
+				893C07952D0AFB3000622351 /* Font+Extension.swift in Sources */,
+				893C075A2D0A9BF100622351 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		893C07672D0A9BF300622351 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893C07682D0A9BF300622351 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893C076B2D0A9BF300622351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		893C076C2D0A9BF300622351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893C076E2D0A9BF300622351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX9G54G5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhyDocOA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batrinho.PhyDocOA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893C076F2D0A9BF300622351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KX9G54G5JC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhyDocOA/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batrinho.PhyDocOA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893C07512D0A9BF100622351 /* Build configuration list for PBXProject "PhyDocOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893C076B2D0A9BF300622351 /* Debug */,
+				893C076C2D0A9BF300622351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893C076D2D0A9BF300622351 /* Build configuration list for PBXNativeTarget "PhyDocOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893C076E2D0A9BF300622351 /* Debug */,
+				893C076F2D0A9BF300622351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		893C07622D0A9BF100622351 /* PhyDocOA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				893C07632D0A9BF100622351 /* PhyDocOA.xcdatamodel */,
+			);
+			currentVersion = 893C07632D0A9BF100622351 /* PhyDocOA.xcdatamodel */;
+			path = PhyDocOA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 893C074E2D0A9BF100622351 /* Project object */;
+}
