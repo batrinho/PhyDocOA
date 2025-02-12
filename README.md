@@ -10,4 +10,4 @@ This is my pet-project, called **PhyDocOA**, and iOS app designed to look for an
 <img width="200" alt="Simulator Screenshot - iPhone 15 - 2025-02-11 at 19 14 02" src="https://github.com/user-attachments/assets/7f09b17a-d292-4a36-88d0-aa7b3946cbde">   
 
 watch the demo of the app:
-[![Watch the video](https://img.youtube.com/vi/BVFo5F5Tc_A/maxresdefault.jpg)]([https://youtu.be/vt5fpE0bzSY](https://youtube.com/shorts/BVFo5F5Tc_A))
+[![Watch the video](https://img.youtube.com/vi/BVFo5F5Tc_A/maxresdefault.jpg)](https://www.youtube.com/shorts/BVFo5F5Tc_A)
